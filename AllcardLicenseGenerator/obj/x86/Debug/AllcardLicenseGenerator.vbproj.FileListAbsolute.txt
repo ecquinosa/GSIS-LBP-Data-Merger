@@ -1,0 +1,16 @@
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\bin\Debug\AllcardLicenseGenerator.exe
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\bin\Debug\AllcardLicenseGenerator.pdb
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\bin\Debug\AllcardLicenseGenerator.xml
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\bin\Debug\AllcardLicenseHandler.dll
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\bin\Debug\AllcardEncryptDecrypt.dll
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\bin\Debug\AllcardLicenseHandler.pdb
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\bin\Debug\AllcardLicenseHandler.xml
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.LicenseGeneratorExpDate.resources
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.Resources.resources
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.vbproj.GenerateResource.Cache
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.vbproj.CoreCompileInputs.cache
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.exe
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.xml
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.pdb
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.vbprojAssemblyReference.cache
+F:\Projects\GSIS-LBP Data Merger\AllcardLicenseGenerator\obj\x86\Debug\AllcardLicenseGenerator.vbproj.CopyComplete

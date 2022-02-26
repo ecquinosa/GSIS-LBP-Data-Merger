@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4dcee5b0-b635-45c1-a582-97bb344e0b03": {
+      "ProjectGuid": "4dcee5b0-b635-45c1-a582-97bb344e0b03",
+      "DisplayName": "AllcardLicensingSolution",
+      "ColorIndex": 0
+    },
+    "1c955ce0-9c26-4e47-a355-268b6c4c7efd": {
+      "ProjectGuid": "1c955ce0-9c26-4e47-a355-268b6c4c7efd",
+      "DisplayName": "AllcardLicenseHandler",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

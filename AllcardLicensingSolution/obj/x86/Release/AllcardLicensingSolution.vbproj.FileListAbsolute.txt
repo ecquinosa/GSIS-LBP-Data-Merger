@@ -1,0 +1,16 @@
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.Resources.resources
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.vbproj.GenerateResource.Cache
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\bin\Release\AllcardLicensingSolution.exe
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\bin\Release\AllcardLicensingSolution.pdb
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\bin\Release\AllcardLicensingSolution.xml
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\bin\Release\AllcardLicenseHandler.dll
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\bin\Release\AllcardEncryptDecrypt.dll
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\bin\Release\AllcardLicenseHandler.pdb
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\bin\Release\AllcardLicenseHandler.xml
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.vbprojResolveAssemblyReference.cache
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.exe
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.xml
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.pdb
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.DateActivation.resources
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.CountActivation.resources
+F:\Projects\GSIS-LBP Data Merger\AllcardLicensingSolution\obj\x86\Release\AllcardLicensingSolution.Main.resources

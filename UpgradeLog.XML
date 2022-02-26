@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GSIS-LBP Data Merger">
+</Property><Property Name="Solution File" Value="E:\Projects\GSIS-LBP Data Merger\GSIS-LBP Data Merger.sln">
+</Property><Property Name="User Options File" Value="E:\Projects\GSIS-LBP Data Merger\GSIS-LBP Data Merger.suo">
+</Property><Property Name="Date" Value="Tuesday, February 14, 2017">
+</Property><Property Name="Time" Value="10:47 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GSIS-LBP Data Merger.sln" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger.sln">
+</Event><Event ErrorLevel="0" Project="" Source="GSIS-LBP Data Merger.suo" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger.suo">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\GSIS-LBP Data Merger.vbproj" Description="Project file successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\GSIS-LBP Data Merger.vbproj">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\AccessFile.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\AccessFile.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\DataMerger.Designer.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\DataMerger.Designer.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\DataMerger.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\DataMerger.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\DBCon.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\DBCon.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\Form1.Designer.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\Form1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\Form1.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\Form1.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\My Project\AssemblyInfo.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\My Project\Application.Designer.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\My Project\Resources.Designer.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\My Project\Settings.Designer.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\Settings.Designer.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\Settings.vb" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\Settings.vb">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\app.config" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\app.config">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\My Project\Application.myapp" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\My Project\Settings.settings" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\DataMerger.resx" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\DataMerger.resx">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\My Project\Resources.resx" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\Settings.resx" Description="File successfully backed up as E:\Projects\GSIS-LBP Data Merger\Backup\GSIS-LBP Data Merger\Settings.resx">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\GSIS-LBP Data Merger.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\GSIS-LBP Data Merger.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GSIS-LBP Data Merger.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GSIS-LBP Data Merger.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GSIS-LBP Data Merger" Source="GSIS-LBP Data Merger\GSIS-LBP Data Merger.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
