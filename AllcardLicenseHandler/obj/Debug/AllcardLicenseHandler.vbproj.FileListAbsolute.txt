@@ -20,3 +20,15 @@ F:\Projects\GSIS-LBP Data Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseH
 F:\Projects\GSIS-LBP Data Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.pdb
 F:\Projects\GSIS-LBP Data Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.vbprojAssemblyReference.cache
 F:\Projects\GSIS-LBP Data Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.vbproj.CopyComplete
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\bin\Debug\AllcardLicenseHandler.dll
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\bin\Debug\AllcardLicenseHandler.pdb
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\bin\Debug\AllcardLicenseHandler.xml
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\bin\Debug\AllcardEncryptDecrypt.dll
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.vbproj.AssemblyReference.cache
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.Resources.resources
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.vbproj.GenerateResource.cache
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.vbproj.CoreCompileInputs.cache
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.vbproj.CopyComplete
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.dll
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.xml
+D:\WORK\Projects\GSIS-LBP-Data-Merger\AllcardLicenseHandler\obj\Debug\AllcardLicenseHandler.pdb

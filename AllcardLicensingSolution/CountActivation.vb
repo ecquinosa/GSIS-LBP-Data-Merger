@@ -9,14 +9,18 @@
         'openfile.RestoreDirectory = True
         If openfile.ShowDialog = DialogResult.OK Then
             txtLicx.Text = openfile.FileName
-            Dim arrLicx() As String = LicenseHandler.GetLicenseInfoByCount(txtLicx.Text)
-            lblMACAddress.Text = arrLicx(0)
-            lblCPUID.Text = arrLicx(1)
-            lblMotherboardID.Text = arrLicx(2)
-            lblCreationDate.Text = arrLicx(3)
-            lblActivationDate.Text = arrLicx(4)
-            lblLicenseLimit.Text = CInt(arrLicx(5)).ToString("N0")
-            lblLicenseBalance.Text = CInt(arrLicx(6)).ToString("N0")
+            Dim arrLicx() As String = AllcardLicenseHandler.LicenseHandler.GetLicenseInfoByCount(txtLicx.Text)
+            Try
+                lblMACAddress.Text = arrLicx(0)
+                lblCPUID.Text = arrLicx(1)
+                lblMotherboardID.Text = arrLicx(2)
+                lblCreationDate.Text = arrLicx(3)
+                lblActivationDate.Text = arrLicx(4)
+                lblLicenseLimit.Text = CInt(arrLicx(5)).ToString("N0")
+                lblLicenseBalance.Text = CInt(arrLicx(6)).ToString("N0")
+            Catch ex As Exception
+                AllcardLicenseHandler.SharedFunction.ShowErrorMessage(ex.Message)
+            End Try
         End If
         openfile.Dispose()
     End Sub
@@ -24,7 +28,7 @@
     Private Sub lblActivateLicense_Click(sender As System.Object, e As System.EventArgs) Handles lblActivateLicense.Click
         Dim limit As Integer = CInt(txtNewLicenseLimit.Text) + CInt(lblLicenseBalance.Text)
         If AllcardLicenseHandler.SharedFunction.ShowMessage("Are you sure you want to activate license with " & limit.ToString("N0") & " limit?") = Windows.Forms.DialogResult.Yes Then
-            LicenseHandler.ActivateLicenseVendorv2(limit, txtLicx.Text)
+            AllcardLicenseHandler.LicenseHandler.ActivateClientLicenseByCount(txtLicx.Text, limit)
             Close()
         End If
     End Sub

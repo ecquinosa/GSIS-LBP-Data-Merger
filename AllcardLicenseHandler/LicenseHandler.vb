@@ -282,15 +282,17 @@ Public Class LicenseHandler
         '0=MacAddr, 1=ProcessorID, 2=MotherBoardID, 3=LicxDateCreation, 4=LicxDateActivated, 5=CountLimit, 6=Balance
         Dim allcardEncDec As New AllcardEncryptDecrypt.EncryptDecrypt(key)
         Try
-            Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(licenseFile))
-            Dim arrLicx() As String = licx.Split("^")
-            If arrLicx(5) > 0 Then
-                Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, arrLicx(5), arrLicx(6))
-                System.IO.File.WriteAllText(licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
+            If IsLicxValid(licenseFile) Then
+                Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(licenseFile))
+                Dim arrLicx() As String = licx.Split("^")
+                If arrLicx(5) > 0 Then
+                    Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, arrLicx(5), arrLicx(6))
+                    System.IO.File.WriteAllText(licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
 
-                SharedFunction.ShowExcMessage("License is successfully activated")
-            Else
-                SharedFunction.ShowExcMessage("License is not verified (04)")
+                    SharedFunction.ShowExcMessage("License is successfully activated")
+                Else
+                    SharedFunction.ShowExcMessage("License is not verified (04)")
+                End If
             End If
         Catch ex As Exception
             SharedFunction.SaveToErrorLog(String.Format("{0}ActivateLicenseClient(): {1}", SharedFunction.TimeStamp, ex.Message))
@@ -303,11 +305,13 @@ Public Class LicenseHandler
         '0=MacAddr, 1=ProcessorID, 2=MotherBoardID, 3=LicxDateCreation, 4=LicxDateActivated, 5=CountLimit, 6=Balance
         Dim allcardEncDec As New AllcardEncryptDecrypt.EncryptDecrypt(key)
         Try
-            Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(licenseFile))
-            Dim arrLicx() As String = licx.Split("^")
-            Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, limit, limit)
-            System.IO.File.WriteAllText(licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
-            SharedFunction.ShowInfoMessage("License is successfully activated")
+            If IsLicxValid(licenseFile) Then
+                Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(licenseFile))
+                Dim arrLicx() As String = licx.Split("^")
+                Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, limit, limit)
+                System.IO.File.WriteAllText(licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
+                SharedFunction.ShowInfoMessage("License is successfully activated")
+            End If
         Catch ex As Exception
             SharedFunction.SaveToErrorLog(String.Format("{0}ActivateLicense(): {1}", SharedFunction.TimeStamp, ex.Message))
         Finally
@@ -319,11 +323,13 @@ Public Class LicenseHandler
         '0=MacAddr, 1=ProcessorID, 2=MotherBoardID, 3=LicxDateCreation, 4=LicxDateActivated, 5=CountLimit, 6=Balance
         Dim allcardEncDec As New AllcardEncryptDecrypt.EncryptDecrypt(key)
         Try
-            Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(_licenseFile))
-            Dim arrLicx() As String = licx.Split("^")
-            Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, limit, limit)
-            System.IO.File.WriteAllText(_licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
-            SharedFunction.ShowInfoMessage("License is successfully activated")
+            If IsLicxValid(_licenseFile) Then
+                Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(_licenseFile))
+                Dim arrLicx() As String = licx.Split("^")
+                Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, limit, limit)
+                System.IO.File.WriteAllText(_licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
+                SharedFunction.ShowInfoMessage("License is successfully activated")
+            End If
         Catch ex As Exception
             SharedFunction.SaveToErrorLog(String.Format("{0}ActivateLicense(): {1}", SharedFunction.TimeStamp, ex.Message))
         Finally
@@ -335,17 +341,42 @@ Public Class LicenseHandler
         '0=MacAddr, 1=ProcessorID, 2=MotherBoardID, 3=LicxDateCreation, 4=LicxDateActivated, 5=CountLimit, 6=Balance
         Dim allcardEncDec As New AllcardEncryptDecrypt.EncryptDecrypt(key)
         Try
-            Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(_licenseFile))
-            Dim arrLicx() As String = licx.Split("^")
-            Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, expiryDate, arrLicx(6))
-            System.IO.File.WriteAllText(_licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
-            SharedFunction.ShowInfoMessage("License is successfully activated")
+            If IsLicxValid(_licenseFile) Then
+                Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(_licenseFile))
+                Dim arrLicx() As String = licx.Split("^")
+                Dim newlicx As String = String.Format("{0}^{1}^{2}^{3}^{4}^{5}^{6}", arrLicx(0), arrLicx(1), arrLicx(2), arrLicx(3), Now.ToString, expiryDate, arrLicx(6))
+                System.IO.File.WriteAllText(_licenseFile, allcardEncDec.TripleDesEncryptText(newlicx))
+                SharedFunction.ShowInfoMessage("License is successfully activated")
+            End If
         Catch ex As Exception
             SharedFunction.SaveToErrorLog(String.Format("{0}ActivateLicense(): {1}", SharedFunction.TimeStamp, ex.Message))
         Finally
             allcardEncDec = Nothing
         End Try
     End Sub
+    Private Shared Function IsLicxValid(ByVal _licenseFile As String) As Boolean
+        Dim bln = False
+        If System.IO.File.Exists(_licenseFile) Then
+            If IO.Path.GetExtension(_licenseFile).ToUpper = ".LICX" Then
+                Dim allcardEncDec As New AllcardEncryptDecrypt.EncryptDecrypt(key)
+                Dim licx As String = allcardEncDec.TripleDesDecryptText(System.IO.File.ReadAllText(_licenseFile))
+                allcardEncDec = Nothing
+                If licx.Contains("^") Then
+                    bln = True
+                Else
+                    SharedFunction.ShowMessage("Unable to parse license", Windows.Forms.MessageBoxButtons.OK, Windows.Forms.MessageBoxIcon.Warning)
+                    Return False
+                End If
+            Else
+                SharedFunction.ShowMessage("Please select valid licx file", Windows.Forms.MessageBoxButtons.OK, Windows.Forms.MessageBoxIcon.Warning)
+                Return False
+            End If
+        Else
+            SharedFunction.ShowMessage("Please select valid license file", Windows.Forms.MessageBoxButtons.OK, Windows.Forms.MessageBoxIcon.Warning)
+        End If
+
+        Return bln
+    End Function
 
     Public Shared Sub RecreateClientLicenseByExpiryDate(ByVal lastAccessed As String)
         '0=MacAddr, 1=ProcessorID, 2=MotherBoardID, 3=LicxDateCreation, 4=LicxDateActivated, 5=ExpiryDate, 6=LastAccessed
